@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    box-shadow: 2px 2px white;
+    
+}
+.logo img{
+    height: 50px;
+    width: 140px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+ul li{
+    list-style-type: none;
+   
+}
+span{
+    color: rgb(247, 62, 191);
+    font-weight: bold;
+    font-size: 13px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.search input{
+    width: 360px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 247, 247);
+}
+
+input::placeholder{
+    padding-left: 30px;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 20px;
+    text-align: center;
+}
+.icons i{
+    padding-left: 10px;
+} 
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.icon1{
+    padding-right: 15px;
+}
+.icon2{
+    padding-right: 15px;
+}
+.icon3{
+    padding-right: 15px;
+}
+
+/* BODY */
+.body img{
+    height: 400px;
+    width: auto;
+}
+.responsive{
+    height: auto;
+    max-width: 100%;
+}
+
+/* GRID */
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: repeat(2,auto);
+     justify-content: start;
+}
+.container img{
+    width: 240px;
+    height: 310px;
+}
+.lastimg{
+   display: grid;
+   grid-template-columns: repeat(3,auto);
+   grid-template-rows: repeat(1,auto);
+   justify-content: center;
+}
+
+/* FOOTER */
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 80px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: #FAFBFC;;
+}
+.footerimg{
+    height: 40px;
+    width: 110px;
+    padding-right: 10px;
+}
+.footericon{
+    height: 20px;
+    width: 35px;
+    padding-right: 15px;
+}
+.og{
+    height: 40px;
+    width: 48px;
+}
+h6{
+    line-height: 50px;
+}
+.footer p{
+    line-height: 30px;
+    color: #696b79;
+    cursor: pointer;
+}

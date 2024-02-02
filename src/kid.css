@@ -1,0 +1,19 @@
+.kids img{
+    height: auto;
+    width: 100%;
+}
+h2{
+    padding: 30px 80px;
+}
+.kidsgrid{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.kidsgrid img{
+    width: 280px;
+    height: 350px;
+}

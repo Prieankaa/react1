@@ -1,0 +1,12 @@
+
+.men img{
+    width: 100%;
+    height: auto;
+}
+.mengrid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    justify-content: center;
+}

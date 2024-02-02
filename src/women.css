@@ -1,0 +1,16 @@
+.womenbody img{
+    width: 100%;
+    height: auto;
+}
+.womengrid{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        grid-template-rows: repeat(2,auto);
+        /* justify-content: center; */
+        /* column-gap: 25px; */
+    
+}
+.womengrid img{
+    width: 248px;
+    height: 420px;
+}
