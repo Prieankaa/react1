@@ -1,0 +1,320 @@
+.sidebar{
+    font-size: 15px;
+    border-right: 1px solid silver;
+}
+
+.topmost{
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px;
+}
+.hpc{
+    padding: 2px 20px;
+    font-size: 14px;
+}
+.hpc span{
+    color:  rgb(111, 110, 110);
+}
+.pci{
+    padding: 30px 20px;
+    font-size: 14px;
+}
+.pci span{
+    color:  rgb(111, 110, 110);
+}
+.filters{
+    display: flex;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.filters h4{
+    padding-right: 220px;
+}
+.filters p{
+    margin-right: 20px;
+    font-size: 14px;
+}
+.filters p:hover{
+    background-color: rgb(247, 244, 244);
+    border: none;
+    padding: 1px ;
+    border-radius: 10px;
+}
+.recommends{
+    margin-left: 40%;  
+}
+select{
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.gender{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cat h4{
+    padding: 10px 0px;
+}
+.cat i{
+    background-color: rgb(243, 240, 240);
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(57, 56, 56);
+    border-radius: 20px;
+}
+
+
+.categories{
+    line-height: 20px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.categories h5{
+    color: #ff3f6c;
+    padding: 5px 0px;
+}
+.brands h5{
+    color: #ff3f6c;
+    padding: 5px 0px;
+}
+.list1{
+    font-size: 14px;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.brand h4{
+    padding: 10px 0px;
+}
+.brand i{
+    background-color: rgb(243, 240, 240);
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(57, 56, 56);
+    border-radius: 20px;
+}
+.brands{
+    line-height: 20px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+
+/* PRICE */
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.prices{
+    line-height: 20px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+/* COLOR */
+.color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.color i{
+    background-color: rgb(243, 240, 240);
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(57, 56, 56);
+    border-radius: 20px;
+}
+.colors{
+    line-height: 20px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.colors h5{
+    color: #ff3f6c;
+    padding: 5px 0px;
+}
+.list2 img{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #080808;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+/* DISCOUNT */
+.discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.discount i{
+    background-color: rgb(243, 240, 240);
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(57, 56, 56);
+    border-radius: 20px;
+}
+.discounts{
+    line-height: 20px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.genders{
+    border-bottom: 1px solid silver;
+    padding:15px;
+}
+.beautyproducts{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grids:hover{
+    box-shadow: 5px 2px 2px 2px rgb(210, 209, 208);
+    border: 1px solid whitesmoke;
+}
+/* .grids{
+    width:100%;
+    height: auto;
+} */
+.grids img{
+    height: 250px;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+}
+.grids button{
+    padding: 8px 50px;
+    margin-left: 10px;
+    opacity: 0;
+    background-color: white;
+    border: none;
+}
+.grids button:hover{
+    opacity: 1;
+}
+.prodetails{
+    margin-left: 10px;
+}
+.price{
+    display: flex;
+    padding-right: 50px;
+}
+.price p{
+    font-size: 13px;
+}
+.buy{
+    padding-right: 5px;
+}
+.off{
+    color: #ff3f6c;
+}
+.actualp{
+    text-decoration: line-through;
+}
+
+/* LINKS */
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+.previous button{
+    padding: 13px 19px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.prebtn:hover{
+    border:  1px solid black;
+}
+.num a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: black;
+    font-weight: bolder;
+}
+.num a:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.Next button{
+    padding: 13px 19px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.nextbtn:hover{
+    border:  1px solid black;
+}
+.products{
+    width: 100%;
+}
+.grids:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.product{
+    display: flex;
+}
+
+
+@media screen and (max-width:1000px) {
+    .beautyproducts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .recommends{
+        margin-left: 20px;  
+    }
+}
+
+@media  screen and (max-width:890px) {
+    .beautyproducts{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(10,auto);
+    }
+    .recommends{
+        display: none;
+    }
+
+}
